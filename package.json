@@ -1,0 +1,29 @@
+{
+  "name": "adyen-riskdata",
+  "version": "1.0.0",
+  "description": "A Node.js module for generating Adyen's required dfValue (riskData) and components key for secure payment processing. Simple and customizable for various environments.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glizzykingdreko/adyen-riskdata.git"
+  },
+  "keywords": [
+    "adyen",
+    "encryption",
+    "card",
+    "riskData",
+    "dfValue",
+    "components",
+    "adyen fingerprint",
+    "adyen-5.11.0",
+    "adyen 5.11.0"
+  ],  
+  "main": "src/riskData.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node tests/testGeneration.js"
+  },
+  "author": "glizzykingdreko <glizzykingdreko@protonmail.com>",
+  "license": "ISC"
+}
