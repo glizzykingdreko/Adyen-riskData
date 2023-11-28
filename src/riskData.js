@@ -35,10 +35,14 @@ class RiskData {
     }
 
     generate() {
-        return {
-            riskData: this.dfValue(),
+        let data = {
+            version: "1.0.0",
+            deviceFingerprint: this.dfValue(),
+            persistentCookie: [],
             components: this.generateComponents()
         }
+        // return in base64
+        return Buffer.from(JSON.stringify(data)).toString('base64');
     }
 
     dfValue() {

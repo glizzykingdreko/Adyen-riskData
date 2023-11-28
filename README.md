@@ -55,41 +55,7 @@ let riskDataInstance = new RiskData(
 console.log(riskDataInstance.generate());
 
 // Output:
-{
-  riskData: 'DpqwU4zEdN0050000000000000BTWDfYZVR300056987765WpYWiKzBGfeypNASARQVGfm3JQDzg002cG3BdnXVmf00000YVxEr000008bcIu6FDHOVQCU4RphkX:40',
-  components: {
-    userAgent: '0eace09620203eff37d8a24433455faa',
-    webdriver: 0,
-    language: 'en-US',
-    colorDepth: 24,
-    deviceMemory: 4,
-    pixelRatio: 2,
-    hardwareConcurrency: 8,
-    screenWidth: 360,
-    screenHeight: 640,
-    availableScreenWidth: 360,
-    availableScreenHeight: 640,
-    timezoneOffset: -300,
-    timezone: 'America/Chicago',
-    sessionStorage: 1,
-    localStorage: 1,
-    indexedDb: 1,
-    addBehavior: 0,
-    openDatabase: 0,
-    platform: 'MacIntel',
-    plugins: '29cf71e3d81d74d43a5b0eb79405ba87',
-    canvas: 'c6885e141ffa5f80011869e291b711e7',
-    webglVendorAndRenderer: undefined,
-    adBlock: 0,
-    hasLiedLanguages: 0,
-    hasLiedResolution: 0,
-    hasLiedOs: 0,
-    hasLiedBrowser: 0,
-    fonts: 'c87b1b27f41f86dec72c1d2e0def7120',
-    audio: '55f67124434b2de71322279aef16e36b',
-    enumerateDevices: '5f3fdaf4743eaa707ca6b7da65603892'
-  }
-}
+eyJ2ZXJzaW9uIjoiMS4wLjAiLCJkZXZpY2VGaW5nZXJwcmludCI6IkRwcXdVNHpFZE4wMDUwMDAwMDAwMDAwMDAwQlRXRGZZWlZSMzAwMDU2OTg3NzY1V3BZV2lLekJHZmV5cE5BU0FSUVZHZm0zSlFEemcwMDJjRzNCZG5YVm1mMDAwMDBZVnhFcjAw...
 ```
 
 ## Contributing
